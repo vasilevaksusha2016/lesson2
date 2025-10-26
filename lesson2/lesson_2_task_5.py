@@ -1,5 +1,5 @@
 def month_to_season(month):
-    if month == 12 or 1 <= month <= 2:
+    if 1 <= month <= 2 and 12 == month:
         return "Зима"
     elif 3 <= month <= 5:
         return "Весна"
